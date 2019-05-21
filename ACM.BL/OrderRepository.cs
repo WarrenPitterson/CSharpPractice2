@@ -21,7 +21,7 @@ namespace ACM.BL
         return order;
     }
 
-    bool Save(Order order)
+    public bool Save(Order order)
     {
         return true;
     }
