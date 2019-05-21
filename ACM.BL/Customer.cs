@@ -26,6 +26,8 @@ namespace ACM.BL
         public string FirstName { get; set; }
         public int CustomerType { get; set; }
 
+        public override string ToString() => FullName;
+
         public string FullName
         {
             get

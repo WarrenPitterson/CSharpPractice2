@@ -22,6 +22,9 @@ namespace ACM.BL
         public int ProductId { get; private set; }
         public string ProductName { get; set; }
 
+        public override string ToString() => ProductName;
+        
+
 
         public Product Retrieve(int productid)
         {
