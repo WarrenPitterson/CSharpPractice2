@@ -9,7 +9,7 @@ namespace Acme.CommonTests
 {
     public static class LoggingService
     {
-        public static void WritetoFile(List<ILoggable> itemsToLog)
+        public static void WriteToFile(List<ILoggable> itemsToLog)
         {
             foreach (var item in itemsToLog)
             {

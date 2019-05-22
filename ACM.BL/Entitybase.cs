@@ -8,7 +8,7 @@ namespace ACM.BL
 {
     public enum EntityState
     {
-        Active,
+        Active, 
         Deleted
     }
     public abstract class EntityBase
